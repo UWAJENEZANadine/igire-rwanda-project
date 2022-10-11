@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.desc-awe-container{
+    background-color:antiquewhite;
+    height: 100vh;
+    width: 100%;
+}
+.desc-content{
+    /* background-color: aquamarine; */
+    padding: 5%;
+    margin-left: 20%;
+}
+.desc-content h1{
+  
+}
+.paragraphy-content{
+    /* background-color: antiquewhite; */
+    /* height: 20vh;
+    width: 100%; */
+    display: flex;
+}
+.Awe-para1{
+    /* background-color: blueviolet; */
+    width: 30%;
+    height: 30vh;
+    
+}
+.Awe-para2{
+    /* background-color: blue; */
+    width: 30%;
+    height: 30vh;
+    margin-left: 5%;
+}

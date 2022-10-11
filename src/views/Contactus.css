@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contactus-container {
+    background-color: #EEE;
+    width: 100%;
+    height: 100vh;
+    padding: 5%;
+}
+
+.contactus-form {
+    background: white;
+    height: 80vh;
+    width: 60%;
+    margin-left: 18%;
+    margin-top: 3%;
+    padding: 3%;
+}
+
+.contact-title h2 {
+
+    text-align: center;
+
+
+
+}
+
+.contact-title p {
+    text-align: center;
+}
+
+.icons-contact {
+
+    display: flex;
+    width: 60%;
+    height: 10vh;
+    margin-left: 20%;
+    margin-top: 5%;
+
+}
+
+.personal-contact {
+    display: flex;
+}
+
+.form {
+    display: block;
+    /* background-color: indianred; */
+    width: 40%;
+    margin-top: 8%;
+    margin-left: 5%;
+    color: #000;
+}
+
+.contact-message {
+    /* background-color: indianred; */
+    width: 40%;
+    height: 30vh;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.contact-message p {
+    color: #000;
+}
+
+.batoni {
+    /* background-color:#CFF4F2; */
+    /* color:#000;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 4%; */
+}
+
+@media (min-width:1200px) {
+
+    .contactus-container {
+        /* background-color: aquamarine; */
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .contactus-form {
+        background-color: indianred;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .contactus-form {
+        /* background-color: wheat; */
+        width: 100%;
+        height: 70vh;
+        margin: auto;
+        margin-top: 8%;
+    }
+
+    .icons-contact {
+        margin-top: 10%;
+    }
+
+    .contact-message TextArea {
+        height: 25vh !important;
+        width: 120% !important;
+
+    }
+
+    .personal-contact {
+        /* margin-top: 10%; */
+    }
+
+    .contact-title h2 {
+        margin-top: 5%;
+    }
+}
+
+@media (min-width:400px) and (max-width:767px) {
+    .contactus-container {
+        /* background-color: aquamarine; */
+    }
+
+    .contactus-form {
+        /* background-color: wheat; */
+        width: 100%;
+        margin: auto;
+        height: 80vh;
+        margin-top: 10%;
+    }
+
+    .get-button Button {
+        /* background-color: indianred; */
+    }
+
+    .contact-title h2 {
+        text-align: center;
+    }
+
+    .icons-contact {
+
+        width: 100%;
+        margin: auto;
+        margin-top: 10%;
+    }
+
+    .icons-contact p {
+        /* margin-right: 20%; */
+    }
+
+    .personal-contact {
+
+        display: block;
+    }
+
+    .form {}
+
+    .contact-message {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .contact-message p {
+        color: #000;
+    }
+
+    .contact-message TextArea {
+
+        height: 70% !important;
+        width: 70% !important;
+
+    }
+
+    .batoni {
+        /* background-color: indianred; */
+        margin-top: 5% !important;
+    }
+
+    .batoni Button {}
+
+}

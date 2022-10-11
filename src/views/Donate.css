@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.image-container {
+  background-color: #f6f4ee;
+  padding: 9px;
+  width: 100%;
+  height: 15vh;
+  margin-top: 10px;
+}
+
+:root {
+  --surface-color: rgba(15, 14, 14, 0.486);
+  --curve: 20;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #ffffff;
+}
+
+.donate-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 4rem 5vw;
+  padding: 0;
+  height: 100vh;
+  list-style-type: none;
+}
+
+.donate-card {
+  position: relative;
+  display: block;
+  height: 80vh;
+  border-radius: calc(var(--curve) * 1px);
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.donate-card__image {
+  width: 100%;
+  height: auto;
+}
+
+.donate-card__overlay {
+  position: absolute;
+  margin-top: 20%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border-radius: calc(var(--curve) * 1px);
+  /* background-color: var(--surface-color); */
+  transform: translateY(100%);
+  transition: 0.2s ease-in-out;
+}
+
+.donate-card:hover .donate-card__overlay {
+  transform: translateY(0);
+}
+
+.donate-card__header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  /* padding: 2em;  */
+  border-radius: calc(var(--curve) * 1px) 0 0 0;
+  background-color: var(--surface-color);
+  transform: translateY(-100%);
+  transition: 0.2s ease-in-out;
+}
+.donate-card__arc {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  z-index: 1;
+}
+
+.donate-card__arc path {
+  fill: var(--surface-color);
+  d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
+}
+
+.donate-card:hover .donate-card__header {
+  transform: translateY(0);
+}
+
+.donate-card__thumb {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.donate-card__title {
+  margin-top: "20%";
+  /* font-size: 1em;
+    margin: 0 0 .3em;
+     color: #fff;  */
+  /* text-align:"center"; */
+}
+
+.donate-card__tagline {
+  display: block;
+  margin: 1em 0;
+  font-family: "MockFlowFont";
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.donate-card__status {
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.description2 {
+  /* padding: 0 2em 2em;
+    margin: 0; */
+  /* background: wheat; */
+  background-color: #f9f9f9;
+  height: 60%;
+  /* margin-top: 0%; */
+  font-family: "MockFlowFont";
+  text-align: center;
+  /* color: #0000;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden; */
+}
+
+.buto {
+  /* background-color: rgba(0,0,0,.4); */
+  /* opacity: 65%; */
+  /* width: 100%;
+    height: 60%;  */
+  /* margin-top: 30%;  */
+}

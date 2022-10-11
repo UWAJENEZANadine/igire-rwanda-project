@@ -1,0 +1,274 @@
+.aboutUS-container {
+  min-height: 150vh;
+  box-sizing: border-box;
+}
+
+.bacground-image {
+  /* width: 100%; */
+  height: 454px;
+  left: 0px;
+  top: 0px;
+  background: url("../assets/images/background.jpeg");
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.about-header {
+  position: absolute;
+  width: 202px;
+  /* height: 39px; */
+  left: 608px;
+  top: 391px;
+  color: white;
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 39px;
+  animation: 2s anim-lineUp ease-out;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-80%);
+  }
+  20% {
+    opacity: 0;
+    transform: translateY(-60%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-40%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.antdesign{
+padding: 1.5rem 3rem;
+font-size: 35px;
+height: 33px;
+
+}
+.roww{
+min-height: 80vh;
+position: absolute;
+top: 579px;
+
+}
+.column1{
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.8);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+height: 75vh;
+animation: 2s anim-lineLeft ease-out;
+}
+.column2{
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.8);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+height: 75vh;
+animation: 2s anim-lineLeft  ease-out;
+
+
+}
+.column3{
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.8);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+height: 75vh;
+animation: 2s anim-lineLeft  ease-out;
+
+}
+
+@keyframes anim-lineLeft {
+  0% { top: 0; left: 0; }
+  30% { top: 50px; }
+  68%, 72% { left: 50px; }
+  100% { top: 100px; left: 100%; }
+}
+.column3:hover{
+    background-color: rgba(8, 117, 23, 0.075);
+
+    transition: 0.7s;
+    transform: scale(0.7)
+
+}
+
+.column2:hover{
+    background-color: rgba(8, 117, 23, 0.075);
+    transition: 0.7s;
+    transform: scale(0.7)
+
+}
+
+.column1:hover{
+    background-color: rgba(8, 117, 23, 0.075);
+    transition: 0.7s;
+    transform: scale(0.7)
+
+}
+
+
+
+
+
+.col1-header{
+position: absolute;
+width: 94px;
+left: 150px;
+top: 19px;
+
+font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 39px; 
+color: #000000; 
+
+}
+.col1-paragrapgh{
+padding: 3rem 3rem;
+width: 265px;
+
+
+font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+
+color: #000000;
+
+}
+.col2-header{
+    /* padding: 2rem 2rem; */
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    padding-left: 6rem;
+   margin-top: -2rem;
+    color: #000000;
+
+    
+}
+
+.col2-paragrapgh{
+
+padding: 2rem 0;
+font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+margin-left: 2rem;
+color: #000000; 
+
+}
+.col3-header{
+font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 39px;
+/* identical to box height */
+padding-left: 6rem;
+margin-top: -2rem;
+color: #000000;
+}
+
+.col3-paragrapgh{
+margin-top: 3rem;
+font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+margin-left: 30px;
+color: #000000;
+
+}
+
+@media (min-width: 320px) and (max-width: 740px) {
+  .aboutUS-container{
+    min-height: 320vh;
+
+
+}
+.about-header{
+  position: absolute;
+  left: 10rem;
+  top: 20rem;
+ 
+  
+  }
+  .col1-header{
+   margin-left: -3rem;
+    width: 15rem;
+    
+  }
+  .col2-header{
+
+    margin-left: -3rem;
+    width: 76px;
+    
+}
+.col3-header{
+ 
+  height: 39px;
+ 
+}
+
+.col2-paragrapgh{
+
+  width: 20rem;
+  
+  }
+  .antdesign{
+    visibility: hidden;
+    }
+    
+.column3:hover{
+  background-color: rgba(8, 117, 23, 0.075);
+
+  transition: .7s;
+
+}
+
+
+.column1:hover{
+  background-color: rgba(8, 117, 23, 0.075);
+  transition: .7s;
+
+
+}
+.column1{
+  margin-bottom: 2rem;
+}
+.column2{
+  margin-bottom: 2rem;
+
+}
+.column3{
+  margin-bottom: 2rem;
+
+}
+
+}
+@media (min-width: 768px) and (max-width: 944px) {
+  .aboutUS-container{
+    min-height: 220vh;
+
+
+}
+}

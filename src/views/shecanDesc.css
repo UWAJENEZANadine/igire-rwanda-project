@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.desc-shecan-container{
+    background-color:wheat;
+    height: 120vh;
+    width: 100%;
+}
+.desc-content{
+    /* background-color: aquamarine; */
+    padding: 5%;
+    margin-left: 10%;
+}
+.desc-content h1{
+  
+}
+.paragraphy-content{
+    /* background-color: antiquewhite; */
+    /* height: 20vh;
+    width: 100%; */
+    display: flex;
+}
+.para1{
+    /* background-color: blueviolet; */
+    width: 50%;
+    height: 30vh;
+    
+}
+.para2{
+    /* background-color: blue; */
+    width: 30%;
+    height: 30vh;
+    margin-left: 5%;
+}

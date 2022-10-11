@@ -1,0 +1,156 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.ourfounder-container {
+    /* background-color: antiquewhite; */
+    width: 100%;
+    height: 200vh;
+}
+
+.container-founder {
+    /* background-color: slategrey; */
+    height: 40vh;
+    width: 100%;
+}
+
+.container-founder h1 {
+    /* background-color: tan; */
+    margin-top: -9% !important;
+    margin-left: 5%;
+    color: white;
+    font-family: var(--font-stack-body);
+    font-weight: var(--font-weight-body);
+    font-style: var(--font-style-body);
+}
+
+.container-founder img {
+    width: 100%;
+    height: 40vh;
+}
+
+.image-founder {
+    /* background-color: yellowgreen; */
+    width: 80%;
+    left: 0%;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.image-founder img {
+    /* position: absolute; */
+    margin-top: 5%;
+    margin-left: 7%;
+    width: 40%;
+    height: 50vh;
+}
+
+.ourfounder-container h5 {
+    /* margin-left: 14%;
+    margin-top: 20%;
+    padding: 20%;
+    background-color: violet;
+   height: 10%;
+   width: 100%; */
+}
+
+.image-founder p {
+    /* background-color: blueviolet; */
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 4%;
+
+}
+
+.image-founder2 {
+    /* background-color: teal; */
+    display: flex;
+    margin-top: 4%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.image-founder2 img {
+    margin-left: 7%;
+    width: 40%;
+    height: 60vh;
+}
+
+.image-founder2 p {
+    /* background-color: blueviolet; */
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 4%;
+
+}
+
+element.style {}
+
+@media only screen and (max-width: 768px) {
+    .container-founder {
+        margin: -2%;
+    }
+
+    .image-founder {
+        /* background-color: indianred; */
+        width: 100%;
+        /* margin-right: 4%!important; */
+        display: block;
+        margin-left: 0;
+    }
+
+    .image-founder img {
+        background: fixed;
+        width: 95%;
+        height: 45vh;
+        margin: 1%;
+        margin-top: 9%;
+    }
+
+    .image-founder p {
+        /* background-color: greenyellow; */
+        /* width: 90%;
+        margin: 3%;
+        text-align: center; */
+        height: 181px;
+        width: 878px;
+        left: 393px;
+        top: 942px;
+        border-radius: nullpx;
+
+
+    }
+
+    .image-founder2 {
+        /* background-color: indianred; */
+        width: 100%;
+        margin: 0%;
+        display: block;
+
+    }
+
+    .image-founder2 img {
+        width: 95%;
+        height: 40vh;
+        margin: 1%;
+        margin-top: 9%;
+
+    }
+
+    .image-founder2 p {
+        /* width: 90%;
+        margin: 3%;
+        text-align: center; */
+        height: 181px;
+        width: 878px;
+        left: 393px;
+        top: 942px;
+        border-radius: nullpx;
+
+    }
+
+
+}

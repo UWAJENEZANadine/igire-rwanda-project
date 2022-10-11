@@ -1,0 +1,22 @@
+@media (max-width: 1200px) {
+  .story1-container {
+    display: block !important;
+  }
+  iframe {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 944px) {
+  .blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+}

@@ -1,0 +1,47 @@
+[
+    {
+      "_id": "6205776776282af30b0d113b",
+      "title": "Mbanda Innocent",
+      "image": [
+        "https://media-exp1.licdn.com/dms/image/C5603AQFgfnu2ukzMOw/profile-displayphoto-shrink_800_800/0/1635430646163?e=1654128000&v=beta&t=fFYNTAN-NIAV07QBBhwrNIE9AU0GZi389TRuWVcZmGY"
+      ],
+      "Position":"Software Engineer at JPMorgan Chase & Co. | Co-founder of SheCanCODE School",
+      "description":"Experienced software development passionate about technology with a focus innovation and creating solutions that matter to people’s lives. Skilled in Java, Spring, Hibernate JPA, JavaScript, MVC, HTML, CSS, Flexbox, Grid, TDD, Agile (Scrum), Object-Oriented Programming (OOP), AJAX, JSON, Restful APIs, Responsive Design / Mobile, Structured Query Language (SQL), Relational Databases, Source Control / Git."
+
+     
+    },
+    {
+        "_id": "6205776776282af30b0d113b",
+        "title": "Jean Jacques Iradukunda",
+        "image": [
+          "data:image/jpeg;base64,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"
+        ],
+        "Position":"Chief Executive Officer at Igire Rwanda Organization",
+        "description":"Jean Jacques’ professional career started as he co-founded Igire Rwanda Organization, a youth empowerment organization that seeks to provide young people with skills they need to access job opportunities or create their own small businesses. He is currently working as a course facilitator at Kepler Kigali. ."
+  
+       
+      },
+      {
+        "_id": "6205776776282af30b0d113b",
+        "title": "Claire Nkamushaba",
+        "image": [
+          "https://media-exp1.licdn.com/dms/image/C4E03AQFW4PNlfj-PQg/profile-displayphoto-shrink_800_800/0/1572973228231?e=1654128000&v=beta&t=JzY-vLtFeHu3RmqDp_bPd22Zk0TzbIXKJS_HjqZRBk4"
+        ],
+        "Position":"Operations Manager & Partners Coordinator at Igire Rwanda Organization",
+        "description":"An adept all-round person with a passion for the issues that concern the community especially youth. Proficient at planning, monitoring, and operations of different youth-targeted projects, and also experienced in other fields as Public Health. I have been able to acquire various recognitions under those fields and have always been motivated by the need for change and improvement."
+  
+       
+      },
+      {
+        "_id": "6205776776282af30b0d113b",
+        "title": "Iyamuremye Benjamin",
+        "image": [
+          "https://media-exp1.licdn.com/dms/image/C4D03AQGqgnIBeU6xgA/profile-displayphoto-shrink_200_200/0/1627152877839?e=1657152000&v=beta&t=PDAtp7IOA8PhsuUr2ZqZY3oSVyS3fAd18KDWC45pKho"
+        ],
+        "Position":"Full-Stack Software Developer",
+        "description":"I am a Full-stack software developer, have been working with web development since 2016, the period during which I have worked in different environments, from big consultancy companies to start-ups. I am a self-motivated and self-taught professional who likes to solve problems. I merge a passion for usability and user experience with technical knowledge to create cool digital experiences."
+  
+       
+      }
+     
+    ]

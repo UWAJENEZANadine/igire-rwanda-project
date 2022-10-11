@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-img {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.donate-txt {
+  display: none;
+}
+.container-img:hover .donate-txt {
+  display: block;
+}
+
+.donate-txt {
+  position: absolute;
+  bottom: 0rem;
+  text-align: center;
+  padding: 2rem 0rem;
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0.685);
+}
+.donate-txt a:link,
+.donate-txt a:visited {
+  text-decoration: none;
+  border-radius: 6px;
+  color: white;
+  background-color: green;
+  text-decoration: none;
+  padding: 0.6rem 1.5rem;
+  transition: all 0.3s;
+}
+.donate-txt a:hover,
+.donate-txt a:active {
+  color: white;
+  background-color: #00390a;
+}
+.video-container {
+  height: 90vh;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  max-width: 500rem;
+}
+
+.video-container video {
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.discription-container {
+  background-color: rgba(0, 0, 0, 0.932);
+  width: 100%;
+  height: 70vh;
+  margin-top: -10%;
+  box-shadow: 80%;
+  z-index: -1;
+}
+
+.home-container h1 {
+  z-index: -1;
+  color: white;
+  margin-left: 25%;
+  padding-top: 5%;
+}
+.words-container {
+  display: block;
+}
+
+.fade-in {
+  animation: fadeIn 12s;
+  z-index: -1;
+  color: cornsilk;
+  font-size: 25px;
+  font-family: "abel";
+  margin-left: 13%;
+  margin-top: 8%;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 7;
+  }
+}
+
+.home-container button:hover {
+  background-color: #00390a;
+}
+
+.fade-in {
+  transition: opacity 1s ease;
+}
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.card {
+  position: absolute;
+  top: 10%;
+  left: 60%;
+  width: 30% !important;
+  /* opacity: 40%; */
+  background: #000;
+}
+
+.card button {
+  z-index: 11;
+  color: black;
+  margin-right: 8rem;
+  width: 40%;
+}
+.card .image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 10%;
+  background: #000;
+}
+
+.card .image h1 {
+  color: black;
+  z-index: 1;
+}
+
+.card .details {
+  transform: perspective(2000px) rotateY(0deg);
+}
+.card .details .center {
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.card .details .center h1 {
+  margin: 0;
+  padding: 0;
+  color: darkgreen;
+  line-height: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.card .details .center h1 span {
+  font-size: 14px;
+  color: #262626;
+}
+.card .details .center p {
+  margin: 10px 0;
+  padding: 0;
+  color: #262626;
+  font-weight: bold;
+}
+.card .details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: darkgreen;
+  transition: 0.3s;
+  transform-origin: left;
+}
+.title {
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1.2rem;
+  /* margin-left: 30%; */
+  color: #333;
+}
+
+.description {
+  /* margin-left: 10%; */
+  font-size: 1.2rem;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  /* margin-right: 10%; */
+  /* font-family: abel; */
+  color: #555;
+}
+/* .title{
+    top:0;
+    font-size: 20px;
+    margin-left: 30%;
+   color:black;
+  }
+  
+  .description{
+    top:0;
+    margin-left: 10%;
+    font-size: 25px;
+    margin-right: 10%;
+    font-family: abel;
+    color:black;
+   
+    
+  }   */
+
+.card .details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: darkgreen;
+  transition: 0.3s;
+  transform-origin: left;
+}
+.title {
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1.2rem;
+  /* margin-left: 30%; */
+  color: #333;
+}
+
+.description {
+  /* margin-left: 10%; */
+  font-size: 1.2rem;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  /* margin-right: 10%; */
+  /* font-family: abel; */
+  color: #555;
+}
+.carousel-container {
+  background-color: #f1f1f1;
+  padding: 3.2rem 0rem;
+}
